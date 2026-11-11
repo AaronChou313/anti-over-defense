@@ -1,0 +1,20 @@
+{
+  "name": "anti-over-defense",
+  "interface": {
+    "displayName": "Anti Over-Defense"
+  },
+  "plugins": [
+    {
+      "name": "anti-over-defense",
+      "source": {
+        "source": "local",
+        "path": "./plugins/anti-over-defense"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

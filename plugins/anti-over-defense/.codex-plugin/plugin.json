@@ -1,0 +1,29 @@
+{
+  "author": {
+    "email": "zhoumy0313@gmail.com",
+    "name": "Mingyang Zhou"
+  },
+  "description": "Reduce unnecessary engineering, defensive writing, speculative checks, repeated audits, and routine SHA verification while completing the requested work directly.",
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": "直接完成当前任务：复用现有实现，仅做必要修改和相关验证，避免额外审计、SHA 校验、重复确认及防御性长文。",
+    "developerName": "Mingyang Zhou",
+    "displayName": "Anti Over-Defense",
+    "logo": "./assets/icon.svg",
+    "longDescription": "基于用户提供的 Anti-Over-Defense 技能，减少无必要的边界检查、安全审计、SHA 校验、审批、抽象、兜底和重复验证，并补充简洁直接的写作规则。复用现有实现和相关检查，完成当前需求后交付。常用指令采用精简版本；附件原文保存在按需读取的参考文件中。适用于日常编程、排错、重构、技术解释及文档写作。",
+    "shortDescription": "减少过度工程化、重复检查和防御性写作"
+  },
+  "keywords": [
+    "codex",
+    "anti-over-engineering",
+    "concise-writing",
+    "anti-over-defense"
+  ],
+  "name": "anti-over-defense",
+  "skills": "./skills",
+  "version": "1.0.0",
+  "homepage": "https://github.com/AaronChou313/anti-over-defense",
+  "repository": "https://github.com/AaronChou313/anti-over-defense"
+}

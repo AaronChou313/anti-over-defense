@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anti Over-Defense"
+  short_description: "直接完成任务，减少过度工程化与防御性长文"
+  default_prompt: "使用 $anti-over-defense 直接完成当前任务，仅做必要修改和相关检查，简洁交付。"
+policy:
+  allow_implicit_invocation: true
